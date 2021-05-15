@@ -1,9 +1,9 @@
-const myFullpage = new fullpage('#fullpage', {
+// const myFullpage = new fullpage('#fullpage', {
     
-    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-    menu: '#menu',
-    lazyLoad: true
-});
+//     anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+//     menu: '#menu',
+//     lazyLoad: true
+// });
 
 
 
@@ -19,6 +19,10 @@ function myMap() {
       });
 }
 
-// $( function() {
-//     $( "#datepicker" ).datepicker();
-//   } );
+$( function() {
+    $("#datepicker-from").datepicker();
+  } );
+
+  $( function() {
+    $("#datepicker-till").datepicker();
+  } );
