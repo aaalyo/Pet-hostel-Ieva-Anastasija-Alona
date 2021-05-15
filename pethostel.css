@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* ======== CONTAINER  ======== */
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* ======== HEADER ======== */
+.header {
+  text-decoration: black;
+}
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+}
+.navbar {
+  color: black;
+  border-bottom: 1px black solid;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.active {
+  pointer-events: none;
+  text-decoration: none;
+}
+
+/* ======== FOOTER ======== */
+
+.footer {
+  border-top: 1px solid black;
+  position: relative;
+}
+
+.footer-text {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
+  color: black;
+}
