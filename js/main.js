@@ -18,3 +18,7 @@ function myMap() {
         map: map,
       });
 }
+
+// $( function() {
+//     $( "#datepicker" ).datepicker();
+//   } );

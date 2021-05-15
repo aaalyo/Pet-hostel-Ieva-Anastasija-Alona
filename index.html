@@ -10,7 +10,9 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/main-page.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css"> -->
+
 </head>
 
 <body>
@@ -55,50 +57,167 @@
                 </div>
             </div>
         </div>
-        <div class="container justify-content-end vh-100 mw-100 p-0 m-0 section" id="section1">
-            <div class="row vh-100">
-                <div class="col mw-50 p-3 m-5 mb-10 about-us">
-About us
+        <div class="container vh-100 mw-100 p-0 m-0 section" id="section1">
+            <div class="row vh-100 m-0 p-0">
+                <div
+                    class="col mw-50 p-3 m-3  about-us container d-flex align-content-around flex-wrap justify-content-center">
+                    <h3 class="text-warning text-center fst-italic mb-3">
+                        We are here to care when you're not there<div>all year round</div>
+                    </h3>
+                    <p class=" text-center ">
+                        We’ve been the leader in pet boarding for more than 40 years and pride ourselves on our
+                        facilities and the exceptional service standards we provide.
+                    </p>
+                    <h6 class="text-warning text-center fst-italic">
+                        Our Vision
+                    </h6>
+                    <p class=" text-center ">
+                        Exceptional and personalised service, surpassing expectations and inspiring a connection to our
+                        brand – to be the first choice for guests and their owners alike.
+                    </p>
+                    <h6 class="text-warning text-center fst-italic">
+                        Our Mission
+                    </h6>
+                    <p class=" text-center ">
+                        To enchant our guests every time by crafting an enjoyable experience from our heart.
+                    </p>
+                    <h6 class="text-warning text-center fst-italic">
+                        Most dog owners believe their dogs have a better holiday than they did!
+                    </h6>
+                    <div class="row ">
+                        <button type="button" class="col align-self-center btn btn-success mt-3 btn-learn-more">Learn
+                            more</button>
+                    </div>
                 </div>
-                <div class="col  mw-50  p-3 m-5 pricing">
-    Pricing
+
+                <div
+                    class="col mw-50 p-3 m-3  about-us container d-flex align-content-around flex-wrap justify-content-center">
+                    <div class="row container d-flex align-content-around flex-wrap justify-content-center h-100">
+                        <div class="col-12 d-flex align-content-around flex-wrap justify-content-center">
+                            <h3 class="text-warning text-center fst-italic mb-3">
+                                Book a holiday:
+                            </h3>
+
+                        </div>
+                        <div class="col-12 d-flex flex-wrap container">
+                            <div class="form-check col-12 m-3">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Hourly stays
+                                </label>
+
+                            </div>
+                            <div class="col-12">
+                                <label for="">Number of hours:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex flex-wrap container">
+                            <div class="form-check col-12 m-3">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Overnight stays
+                                </label>
+
+                            </div>
+                            <div class="col-12">
+                                <p>From: <input type="text" id="datepicker"> Till: <input type="text" id="datepicker">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="">Number fo pets:</label>
+                            <input type="text">
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Personal room</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Pick-up and return with car</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Vet service</label>
+                        </div>
+                        <div class="col-12">
+                            <button type="button"
+                                class=" row align-self-center btn btn-success mt-3 btn-learn-more">Check availability
+                                and price</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
         </div>
 
         <div class="container justify-content-end vh-100 mw-100 p-0 m-0 section" id="section2">
-            <div class="row">
-                <div class="col vh-100 mw-50 p-3 m-3 mb-10 about-us">
-                    <div class=" map float-start m-3" id="googleMap" style="width:300px;height:300px;position:inherit;left:1%;top:1%">
+            <div class="row vh-100 m-0 p-0 ">
+                <div class="col-12 h-50 mw-100 p-0">
+                    <div class=" map float-start m-0 p-0" id="googleMap"
+                        style="width:100%;height:100%;position:inherit;">
                     </div>
                 </div>
-                <div class="col vh-100 mw-50  p-3 m-3 pricing">
-    
+                <div class="col m-3 p-3 contacts">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="text-warning fst-italic mb-3">Working hours</h4>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="text-warning">
+                                Office:
+                            </h5>
+                            <p class="text-secondary">
+                                <b>Weekdays: </b>from 10am till 5pm
+                            </p>
+                            <p class="text-secondary">
+                                <b>Saturday: </b>Closed
+                            </p>
+                            <p class="text-secondary">
+                                <b>Sunday: </b>Closed
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="text-warning">
+                                Resort:
+                            </h5>
+                            <p class="text-secondary">
+                                <b>Weekdays: </b>from 9am till 9pm
+                            </p>
+                            <p class="text-secondary">
+                                <b>Saturday: </b>from 9am till 9pm
+                            </p>
+                            <p class="text-secondary">
+                                <b>Sunday: </b>from 10 am till 3pm
+                            </p>
+                        </div>
+                    </div>
+                   
+                   
                 </div>
+                <div class="col m-3 p-3 contacts">
+                    <h4 class="text-warning fst-italic mb-3">Contacts</h4>
+                </div>
+
             </div>
-            
+
         </div>
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <script type="text/javascript" src="./fullPage.js/dist/fullpage.min.js"></script>
     <script type="text/javascript" src="./fullPage.js/examples/examples.js"></script>
-
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
     <script src="js/main.js"></script>
     <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAps2DTEMItuWcfzVhXiRK69r-ZTrqeuVk&callback=myMap"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAps2DTEMItuWcfzVhXiRK69r-ZTrqeuVk&callback=myMap"></script>
 
 </body>
 
