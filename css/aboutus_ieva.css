@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: rgb(119, 116, 116);
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* ======== CONTAINER  ======== */
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-right: 40px;
+}
+
+
+/* ======== About Us ======== */
+.about-us {
+  color: black;
+}
+.info-about-us {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+.info-main-title {
+  padding-top: 55px;
+}
+
+.offers {
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+
+/* ======== CAROUSEL ======== */
+
+
+/* ======== FOOTER ======== */
+
+.footer {
+  border-top: 1px solid black;
+  position: relative;
+}
+
+.footer-text {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
+  color: black;
+}
