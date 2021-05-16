@@ -92,37 +92,43 @@
                 </div>
 
                 <div
-                    class="col mw-50 p-3 m-3  about-us container d-flex align-content-around flex-wrap justify-content-center">
+                    class="col mw-50 p-3 m-3 about-us container d-flex align-content-around flex-wrap justify-content-center">
                     <div class="row container d-flex align-content-around flex-wrap justify-content-center h-100">
                         <div class="col-12 d-flex align-content-around flex-wrap justify-content-center">
                             <h3 class="text-warning text-center fst-italic mb-3">
                                 Book a holiday:
                             </h3>
-
                         </div>
                         <div class="col-12 d-flex flex-wrap container">
-                            <div class="form-check col-12 m-3">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                            <div class="form-check col-12 pb-3">
+                                <input class="form-check-input" type="radio" name="flexRadioStay"
+                                    id="flexRadioDailystay">
+                                <label class="form-check-label" for="flexRadioDailystay">
                                     Daily stay
                                 </label>
 
                             </div>
                             <div class="col-12">
-                                <label for="hourpicker">Number of hours:</label>
-                                <select class="form-select form-select-sm" aria-label=".form-select-sm">
-                                    <option selected>Please select</option>
-                                    <option value="1">Up to 4 hrs</option>
-                                    <option value="2">More than 4 hrs</option>
-                                </select>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <label for="hourpicker">Number of hours:</label>
+                                    </div>
+                                    <div class="col-8">
+                                        <select class="form-select form-select-sm">
+                                            <option selected>Please select</option>
+                                            <option value="1">Up to 4 hrs</option>
+                                            <option value="2">More than 4 hrs</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                         <div class="col-12 d-flex flex-wrap container">
                             <div class="form-check col-12 m-3">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2" checked>
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                <input class="form-check-input" type="radio" name="flexRadioStay"
+                                    id="flexRadioOvernightsty" checked>
+                                <label class="form-check-label" for="flexRadioOvernightsty">
                                     Overnight stays
                                 </label>
                             </div>
@@ -130,15 +136,15 @@
                                 <label for="datepicker-from">From:</label>
                                 <input type="text" id="datepicker-from">
                                 <label for="datepicker-till">Till:</label>
-                            <input type="text" id="datepicker-till">
+                                <input type="text" id="datepicker-till">
                             </div>
-                            
+
                         </div>
 
 
                         <div class="col-12">
-                            <label for="">Number fo pets:</label>
-                            <input type="text">
+                            <label for="input-number-of-pets">Number fo pets:</label>
+                            <div> <input id="input-number-of-pets" type="text"></div>
                         </div>
                         <div class="col-12">
                             <input type="checkbox" name="" id="">
