@@ -16,7 +16,7 @@ body {
 
 /* ======== Sing In ======== */
 .card {
-  height: 350px;
+  /* height: 350px; */
   margin-top: auto;
   margin-bottom: auto;
   width: 400px;
@@ -107,3 +107,11 @@ body {
   /* max-width: 50%; */
   color: black;
 }
+
+
+.booking-field {
+  background-color: rgba(248, 244, 244, 0.5);
+  border-radius: 5px;
+  text-shadow: black 5px;
+}
+
