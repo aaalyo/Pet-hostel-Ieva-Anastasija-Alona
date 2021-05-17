@@ -19,7 +19,7 @@
 <body>
     <div id="fullpage">
         <div class="container justify-content-end vh-100 mw-100 p-0 m-0 section" id="section0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                     </button>
                     <div class="container">
                         <a class="navbar-brand" href="#">
-                            <img src="./images/logo.png" alt="" height="40">
+                            <img src="./images/logo_white.png" alt="" height="40">
                         </a>
                     </div>
                     <div class="collapse navbar-collapse container" id="navbarNav">
@@ -51,50 +51,53 @@
                     </div>
                 </div>
             </nav>
-            <div class=" container d-flex justify-content-center vh-100 mw-100 p-0 m-0">
-                <div class="row align-self-center me-5">
-                    <h1 class="text-light">Pet resort</h1>
+            <div class=" container d-flex justify-content-center vh-100 mw-50 py-5">
+                <div class="row align-self-end text-center"
+                    style="height: 25%; width: 65%; background-color:rgba(97, 94, 94, 0.7)">
+                    <h1 class="pt-3">Pet resort</h1>
+                    <h3>The best place for your pet to be if he can't be with you!</h3>
                 </div>
             </div>
         </div>
         <div class="container vh-100 mw-100 p-0 m-0 section" id="section1">
             <div class="row vh-100 m-0 p-0">
-                <div
-                    class="col mw-50 p-3 m-3  about-us container d-flex align-content-around flex-wrap justify-content-center">
-                    <h3 class="text-warning text-center fst-italic mb-3">
-                        We are here to care when you're not there<div>all year round</div>
+                <div class="col mw-50 p-3 m-3  about-us container d-flex align-content-around flex-wrap justify-content-center"
+                    style="background-color:rgba(219, 205, 205, 0.8)">
+                    <h3 class="text-secondary text-center fst-italic mb-3">
+                        We are here to take the best possbile care of your dog
                     </h3>
-                    <p class=" text-center ">
-                        We’ve been the leader in pet boarding for more than 40 years and pride ourselves on our
+                    <p class=" text-center text-dark">
+                        Being the leader in pet boarding for more than 40 years, we pride ourselves on our
                         facilities and the exceptional service standards we provide.
                     </p>
-                    <h6 class="text-warning text-center fst-italic">
+                    <h4 class="text-secondary text-center fst-italic">
                         Our Vision
-                    </h6>
+                    </h4>
                     <p class=" text-center ">
                         Exceptional and personalised service, surpassing expectations and inspiring a connection to our
-                        brand – to be the first choice for guests and their owners alike.
+                        brand – to be the first choice for our guests and their owners alike.
                     </p>
-                    <h6 class="text-warning text-center fst-italic">
+                    <h4 class="text-secondary text-center fst-italic">
                         Our Mission
-                    </h6>
+                    </h4>
                     <p class=" text-center ">
-                        To enchant our guests every time by crafting an enjoyable experience from our heart.
+                        To enchant our guests every time they visit by crafting an enjoyable and fun experience.
                     </p>
-                    <h6 class="text-warning text-center fst-italic">
-                        Most dog owners believe their dogs have a better holiday than they did!
-                    </h6>
+                    <h4 class="text-danger text-center fst-italic">
+                        Most dog owners believe their dogs have a better holiday with us than they did themselves!
+                    </h4>
                     <div class="row ">
-                        <button type="button" class="col align-self-center btn btn-success mt-3 btn-learn-more">Learn
-                            more</button>
+                        <a href="./aboutus.html"><button type="button"
+                                class="col align-self-center btn btn-secondary mt-3 btn-secondary">Learn
+                                more</button></a>
                     </div>
                 </div>
 
                 <div
-                    class="col mw-50 p-3 m-3 about-us container d-flex align-content-around flex-wrap justify-content-center">
+                    class="col mw-50 p-3 m-3 about-us container d-flex align-content-around flex-wrap justify-content-center" style="background-color:rgba(219, 205, 205, 0.8)">
                     <div class="row container d-flex align-content-around flex-wrap justify-content-center h-100">
                         <div class="col-12 d-flex align-content-around flex-wrap justify-content-center">
-                            <h3 class="text-warning text-center fst-italic mb-3">
+                            <h3 class="text-secondary text-center fst-italic mb-3">
                                 Book a holiday:
                             </h3>
                         </div>
@@ -120,7 +123,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class="col-12 d-flex flex-wrap container">
@@ -157,11 +160,9 @@
                             <input type="checkbox" name="" id="">
                             <label for="">Vet service</label>
                         </div>
-                        <div class="col-12">
-                            <button type="button"
-                                class=" row align-self-center btn btn-success mt-3 btn-learn-more">Check
-                                availability
-                                and price</button>
+                        <div class="col-12 text-center">
+                            <a href="#"><button type="button"
+                                class="col align-self-center btn btn-secondary mt-3 btn-secondary">Check availability and prices</button></a>
                         </div>
 
                     </div>
@@ -176,45 +177,80 @@
                         style="width:100%;height:100%;position:inherit;">
                     </div>
                 </div>
-                <div class="col m-3 p-3 contacts">
+                <div class="col m-3 p-3 contacts pb-5 mb-5">
                     <div class="row">
                         <div class="col-12">
-                            <h4 class="text-warning fst-italic mb-3">Working hours</h4>
+                            <h4 class="text-dark fst-italic mb-3 text-center">Working hours</h4>
+                            <hr>
                         </div>
                         <div class="col-6">
-                            <h5 class="text-warning">
+                            <h5 class="text-dark mb-3">
                                 Office:
                             </h5>
                             <p class="text-secondary">
-                                <b>Weekdays: </b>from 10am till 5pm
+                                <span class="text-dark"><strong>Weekdays:</strong> </span class="text-dark">from 10am
+                                till 5pm
                             </p>
                             <p class="text-secondary">
-                                <b>Saturday: </b>Closed
+                                <span style="color: rgb(179, 44, 27);"><strong>Saturday:</strong> </span
+                                    class="text-dark">Closed
                             </p>
                             <p class="text-secondary">
-                                <b>Sunday: </b>Closed
+                                <span style="color: rgb(179, 44, 27);"><strong>Sunday:</strong> </span
+                                    class="text-dark">Closed
                             </p>
                         </div>
                         <div class="col-6">
-                            <h5 class="text-warning">
+                            <h5 class="text-dark mb-3">
                                 Resort:
                             </h5>
                             <p class="text-secondary">
-                                <b>Weekdays: </b>from 8 am till 7 pm
+                                <span class="text-dark"><strong>Weekdays:</strong> </span class="text-dark">from 8 am
+                                till 7 pm
                             </p>
                             <p class="text-secondary">
-                                <b>Saturday: </b>from 8 am till 7 pm
+                                <span class="text-dark"><strong>Saturday:</strong> </span class="text-dark">from 8 am
+                                till 7 pm
                             </p>
                             <p class="text-secondary">
-                                <b>Sunday: </b>from 10 am till 5 pm
+                                <span class="text-dark"><strong>Sunday:</strong> </span class="text-dark">from 10 am
+                                till 5 pm
                             </p>
                         </div>
                     </div>
 
 
                 </div>
-                <div class="col m-3 p-3 contacts">
-                    <h4 class="text-warning fst-italic mb-3">Contacts</h4>
+                <div class="col m-3 p-3 contacts pb-5 mb-5">
+                    <div class="col-12">
+                        <h4 class="text-dark fst-italic mb-3 text-center">Contacts</h4>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="text-dark fst-italic mb-3">Office</h5>
+                            <label for="address"><strong>Address:</strong></label>
+                            <address class="text-secondary">Baložu prospekts 10, Berģi, Garkalnes novads, LV-1024
+                                <address>
+                                    <label for="email" class="text-dark pt-2"><strong>Email:</strong></label>
+                                    <div><a href="mailto:" class="text-secondary">info@petresort.lv</a></div>
+                                    <label for="phone" class="text-dark pt-2"><strong>Phone:</strong></label>
+                                    <div><a href="tel:+" class="text-secondary">+371 789 766</a></div>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="text-dark fst-italic mb-3">Resort</h5>
+
+                            <label for="address"><strong>Address:</strong></label>
+                            <address class="text-secondary">Baložu prospekts 25, Berģi, Garkalnes novads, LV-1024
+                                <address>
+                                    <label for="email" class="text-dark pt-2"><strong>Email:</strong></label>
+                                    <div><a href="mailto:" class="text-secondary">petresort@petresort.lv</a></div>
+                                    <label for="phone" class="text-dark pt-2"><strong>Phone:</strong></label>
+                                    <div><a href="tel:+" class="text-secondary">+371 546 546</a></div>
+                        </div>
+                    </div>
+
+
                 </div>
 
             </div>
@@ -222,6 +258,12 @@
         </div>
 
     </div>
+
+    <footer class="footer mt-3 px-3 py-1 bg-dark text-white fixed-bottom" id="footer">
+        <div>
+            <span>&copy;2021 SGT-JS Pet Resort</span>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"

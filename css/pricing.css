@@ -1,51 +1,50 @@
-body{
-    background-color: rgb(119, 116, 116);
+body {
+  background-color: rgb(119, 116, 116);
 }
 
-
 .tab-style {
-    height: fit-content;
-    width: w-100;
-    border: 1px solid #ced4da;
-    border-top: none;
-  }
+  height: fit-content;
+  width: w-100;
+  border: 1px solid #ced4da;
+  border-top: none;
+}
 
-  .nav-link{
-      color: #fff;
-  }
+.nav-link {
+  color: #fff;
+}
 
-  .nav-link:hover{
-    color: #fff;
-  }
+.nav-link:hover {
+  color: #fff;
+}
 
-  .accordion-button{
-      background-color: rgb(119, 116, 116);
-      color: #fff;
-  }
+.accordion-button {
+  background-color: rgb(119, 116, 116);
+  color: #fff;
+}
 
-  .accordion-body{
-    background-color: rgb(172, 166, 166);
-    color: #fff;
-  }
+.accordion-body {
+  background-color: rgb(172, 166, 166);
+  color: #fff;
+}
 
-  .accordion-button:not(.collapsed){
-       background-color: rgb(119, 116, 116) ;
-       color: #fff;
-  }
-  .accordion-button:focus{
-      border-color: none;
-      box-shadow: none;
-  }
+.accordion-button:not(.collapsed) {
+  background-color: rgb(119, 116, 116);
+  color: #fff;
+}
 
-  #table-header-row{
-    background-color: rgb(180, 169, 116); 
-  }
+.accordion-button:focus {
+  border-color: none;
+  box-shadow: none;
+}
 
-  #table-row-important{
-    background-color: rgb(241, 178, 154); 
-  }
+#table-header-row {
+  background-color: rgb(180, 169, 116);
+}
 
-  .table>:not(caption)>*>*{
-      padding: inherit;
-  }
-  
+#table-row-important {
+  background-color: rgb(241, 178, 154);
+}
+
+.table>:not(caption)>*>* {
+  padding: inherit;
+}
