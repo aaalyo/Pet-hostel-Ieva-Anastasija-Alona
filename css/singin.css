@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   background-image: url("https://wallpapercave.com/wp/wp2432509.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,7 +7,6 @@ body {
 }
 
 /* ======== CONTAINER  ======== */
-
 .container {
   height: 100%;
   align-content: center;
@@ -16,7 +14,6 @@ body {
 
 /* ======== Sing In ======== */
 .card {
-  /* height: 350px; */
   margin-top: auto;
   margin-bottom: auto;
   width: 400px;
@@ -28,15 +25,19 @@ body {
   margin-left: 10px;
   color: #998034;
 }
+
 .card-footer {
   max-width: 100%;
 }
+
 .checkbox {
   padding-left: 20px;
 }
+
 .input {
   padding-left: 10px;
 }
+
 .social_icon span:hover {
   color: white;
   cursor: pointer;
@@ -47,13 +48,6 @@ body {
   right: 20px;
   top: -45px;
 }
-
-/* .input-group-prepend span {
-  width: 50px;
-  background-color: #ffc312;
-  color: black;
-  border: 0 !important;
-} */
 
 input:focus {
   outline: 0 0 0 0 !important;
@@ -83,25 +77,16 @@ input:focus {
 .links a {
   margin-left: 4px;
 }
-/* ======== FOOTER ======== */
-
-.footer {
-  border-top: 1px solid black;
-  position: relative;
-}
 
 .footer-text {
   font-size: 12px;
   padding-top: 10px;
   margin-inline-start: 10px;
-  /* max-width: 50%; */
   color: black;
 }
-
 
 .booking-field {
   background-color: rgba(248, 244, 244, 0.5);
   border-radius: 5px;
   text-shadow: black 5px;
 }
-
