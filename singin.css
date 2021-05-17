@@ -1,0 +1,109 @@
+html,
+body {
+  background-image: url("https://wallpapercave.com/wp/wp2432509.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+
+/* ======== CONTAINER  ======== */
+
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+/* ======== Sing In ======== */
+.card {
+  height: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(248, 244, 244, 0.5) !important;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #998034;
+}
+.card-footer {
+  max-width: 100%;
+}
+.checkbox {
+  padding-left: 20px;
+}
+.input {
+  padding-left: 10px;
+}
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: white;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+/* .input-group-prepend span {
+  width: 50px;
+  background-color: #ffc312;
+  color: black;
+  border: 0 !important;
+} */
+
+/* input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+} */
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+}
+/* ======== FOOTER ======== */
+
+.footer {
+  border-top: 1px solid black;
+  position: relative;
+}
+
+.footer-text {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-inline-start: 10px;
+  /* max-width: 50%; */
+  color: black;
+}
